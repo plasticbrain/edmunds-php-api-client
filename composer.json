@@ -1,0 +1,22 @@
+{
+    "name": "plasticbrain/edmunds-api-client",
+    "description": "API Client interact with Edmunds.com API",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Mike Everhart",
+            "email": "mike@plasticbrain.net"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "plasticbrain\\": "src"
+        }
+    }
+}
